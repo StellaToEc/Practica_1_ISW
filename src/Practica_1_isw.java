@@ -32,16 +32,16 @@ public class Practica_1_isw {
             elec = reader.nextInt();
 
             switch (elec) {
-                case 1 -> {
+                case 1 : {
                     agregarPersona();
                 }
-                case 2 -> {
+                case 2 : {
                     modificarPersona();
                 }
-                case 3 -> {
+                case 3 : {
                     eliminaPersona();
                 }
-                case 4 -> {
+                case 4 : {
                     System.out.println("\n");
                     listarPersona();
                 }
