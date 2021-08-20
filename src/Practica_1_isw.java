@@ -34,16 +34,20 @@ public class Practica_1_isw {
             switch (elec) {
                 case 1 : {
                     agregarPersona();
+                    break;
                 }
                 case 2 : {
                     modificarPersona();
+                    break;
                 }
                 case 3 : {
                     eliminaPersona();
+                    break;
                 }
                 case 4 : {
                     System.out.println("\n");
                     listarPersona();
+                    break;
                 }
             }
         }while (elec!=0);
